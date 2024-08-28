@@ -3,266 +3,162 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: left # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: [ Albert Hernández Plaza ]
+  tagline: Desarrollador Full Stack<BR>(Java - JS - React) <i class="fa-solid fa-laptop-code"></i>
+  avatar: albert.webp  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@jekyllrb'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  # Sidebar links
+  email: [ ahernandezplaza@gmail.com ]
+  phone: [ +34 618 144 911 ]
+  timezone: Europe/Madrid
+  linkedin: [ ahernandezplaza ]
+  github: [ jercollini ] 
+  pdf: print pdf :)
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  languages:
+    title: Idiomas
+    info:
+      - idiom: Español
+        level: Nativo
 
-        - idiom: French
-          level: Professional
+      - idiom: Catalán
+        level: Nativo
 
-        - idiom: Spanish
-          level: Professional
+      - idiom: Inglés
+        level: Profesional
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+  interests:
+    title: Intereses
+    info:
+      - item: Escalada indoor
 
-        - item: Snowboarding
-          link:
+      - item: Submarinismo y snorkel
 
-        - item: Cooking
-          link:
+      - item: Gaming
+
+      - item: Cocina
+
+  additional-info:
+    title: Información adicional
+    info:
+      - item: Competencias - Responsabilidad, habilidades interpersonales y oratoria.
+      - item: Licencias - Carnet de conducir B y A2.
+      - item: Vehículo propio - Coche y moto.
+
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Perfil Profesional
+  summary: |
+    Desarrollador Full Stack apasionado por la tecnología y con un fuerte interés en las últimas tendencias del desarrollo web.<BR><BR> 
+    Experiencia en la creación de aplicaciones escalables y de alto rendimiento para los sectores médico y de seguros. <BR><BR>
+    Dominio de Java, JS, React y metodologías ágiles. Constantemente actualizando mis conocimientos para ofrecer soluciones innovadoras y de vanguardia.
+
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Educación
+  info:
+    - degree: Grado en Ingeniería Informática
+      university: Universitat Oberta de Catalunya
+      time: 2013 - Presente
+      details: |
+        Grado completado al 50%
+    - degree: Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Informáticas
+      university: C.E. Roca
+      time: 2007 - 2009
+    - degree: Ciclo Formativo de Grado Superior en Administración de Sistemas Informáticos 
+      university: C.E. Roca
+      time: 2007 - 2009
+    - degree: Ciclo Formativo de Grado Medio en Técnico de Explotación de Sistemas Informáticos
+      university: Escola Bemen 3
+      time: 2005 - 2007
 
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Experiencia Profesional
+  info:
+    - role: Ingeniero de Software Fullstack
+      time: 2019 - Presente
+      company: Stacks para Cegedim Santé
+      details: |
+        Como **Ingeniero Fullstack**, formo parte integral del equipo encargado de la **gestión y mejora continua** de *Mon Logiciel Médical*. Colaboro estrechamente con diseñadores, product owners y otros desarrolladores para entregar soluciones innovadoras que satisfacen las necesidades de los profesionales sanitarios.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        Actualmente, estoy liderando la **transformación digital** y la **optimización del rendimiento** de la aplicación mediante la implementación de **nuevas tecnologías** y la **refactorización del código existente**. Además, soy responsable de la esolución de incidencia y el mantenimiento de los componentes tanto **frontend** como **backend**.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        Mi enfoque se centra en:
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        - **Calidad del código:** Garantizar que cada entrega cumpla con los más altos estándares de calidad.
+        - **Satisfacción del usuario final:** Asegurar una experiencia de usuario óptima y sin fricciones.
+        - **Mentoría:** Apoyar a los nuevos integrantes del equipo, promoviendo el conocimiento compartido y las mejores prácticas de desarrollo.
+      technologies: React, Java 7 8 17, Hibernate, Springboot, JavaScript, jQuery, JSP, REST, Oracle, IntelliJ, Visual Studio, Jira, Kubernetes, Git, Jenkins
+    - role: Desarrollador Java Fullstack
+      time: 2017 - 2019
+      company: Sopra Steria para el cliente Allianz
+      details: |
+        - **Desarrollo Ágil:** Participación activa en equipos Scrum para el desarrollo de aplicaciones web.
+        - **Mejora Continua:** Gestión proactiva de incidencias y optimización de aplicaciones existentes.
+        - **Automatización:** Creación de un arquetipo Maven para agilizar el inicio de nuevos proyectos.        
+      technologies: Java 7, Hibernate, Spring MVC, JavaScript, jQuery, JSP/JSTL, REST, SQL, Eclipse Juno/Oxygen, Visual Studio, Jira, RTC, Git, Jenkins
+    - role: Desarrollador Java Fullstack
+      time: 2015 - Septiembre 2017
+      company: Setting Consultoría para el cliente Banc de Sang i Teixits (Sanidad)
+      details: |
+        - **Análisis y Diseño:** Toma de requisitos y diseño de soluciones de arquitectura.
+        - **Desarrollo Backend:** Desarrollo de componentes backend utilizando Struts2, Spring, Hibernate y otras tecnologías.
+        - **Desarrollo Frontend:** Diseño y desarrollo de interfaces de usuario utilizando JSF, PrimeFaces y JavaScript.
+        - **Optimización:** Mejora del rendimiento y resolución de incidencias en aplicaciones existentes.
+      technologies: Java 4/7, Struts 1.1, Spring, Hibernate, JPA, JSF, PrimeFaces, JavaScript, PL/SQL, eProgesa, Oracle, Eclipse Luna/Neon
+    - role: Soporte Informático Remoto 
+      time: 2010 - 2015
+      company: Costaisa para el cliente Asepeyo
+    - role: Soporte Informático/Helpdesk 
+      company: Uniland Cementera S.A.
+      time: 2008 - 2009
+    - role: Soporte Informático/Helpdesk 
+      company: Telefónica Soluciones
+      time: 2007 - 2008
+    - role: Soporte Informático 
+      company: Sede del Poder Judicial de Barcelona (C.G.P.J.)
+      time: 2007
+    - role: Técnico de Mantenimiento y Administración de Redes 
+      company: Disvirtual S.L.
+      time: 2007
+    - role: Técnico en Reparaciones de Periféricos de Taxis
+      company: Taxímetros Barcino S.L.
+      time: 2006 - 2008
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Habilidades y Competencias
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+    - name: Java
+      level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: Javascript & jQuery
+      level: 98%
+    
+    - name: React
+      level: 80%
 
-      - name: Angular
-        level: 98%
+    - name: HTML5 & CSS
+      level: 95%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: SQL - Oracle - PL/SQL
+      level: 90%
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: Git (bitbucket - gitlab - github)
+      level: 98%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: Jenkins - Gitlab-ci
+      level: 65%
+    
+    - name: Kubernetes 
+      level: 50%
+
+  
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Desarrollado a partir de la plantilla de <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

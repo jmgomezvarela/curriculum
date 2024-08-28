@@ -29,6 +29,13 @@
     </div><!--//details-->
     {% endif %}
 
+    {% if experience.technologies %}
+    <div class="technologies">
+      <label> Stack:</label>
+      {{ experience.technologies }}
+    </div><!--//technologies-->
+    {% endif %}
+
   </div><!--//item-->
   {% endfor %}
 

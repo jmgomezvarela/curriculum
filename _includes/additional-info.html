@@ -1,0 +1,16 @@
+{% assign additional-info = site.data.data.sidebar.additional-info %}
+{% if additional-info %}
+<div class="additional-info-container container-block">
+
+    <h2 class="container-block-title">
+        {{ additional-info.title }}
+    </h2>
+
+    <ul class="list-unstyled interests-list">
+        {% for info in additional-info.info %}
+        <li>{{ info.item }}</li>
+        {% endfor %}
+    </ul>
+
+</div><!--//additional-info-->
+{% endif %}

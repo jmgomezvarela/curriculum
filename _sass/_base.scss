@@ -208,11 +208,17 @@ p {
     color: $text-grey;
     flex: 25%;
   }
-  .company,
+  .company,  
   .university,
   .cert-org {
     margin-bottom: 10px;
     color: $text-grey;
+  }
+  .technologies{
+    color: lighten($text-color-secondary, 15%);
+    font-size: 12px ;
+    font-weight: 400;
+    font-style: italic;
   }
 
   .project-title {
@@ -291,5 +297,13 @@ p {
   .fa-heart {
     color: $heart;
   }
+}
+
+.print-button-like-anchor{
+  // Custom class to style button like anchor element avoiding use btn-link
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: $theme-color;
 }
 
