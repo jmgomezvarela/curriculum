@@ -1,137 +1,134 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-  position: left # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: left # position of the sidebar: left or right
+  about: False # set to False or comment the line if you want to remove the "how to use?" section in the sidebar
+  education: True # set to False if you want education in the main section instead of in the sidebar
 
   # Profile information
   name: [ Albert Hernández Plaza ]
-  tagline: Desarrollador Full Stack<BR>(Java - JS - React) <i class="fa-solid fa-laptop-code"></i>
+  tagline: Full Stack Developer<BR>(Java - JS - React) <i class="fa-solid fa-laptop-code"></i>
   avatar: albert.webp  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: [ ahernandezplaza@gmail.com ]
   phone: [ +34 618 144 911 ]
+  location: Barcelona, Spain
   timezone: Europe/Madrid
   linkedin: [ ahernandezplaza ]
   github: [ jercollini ] 
   pdf: print pdf :)
 
   languages:
-    title: Idiomas
+    title: Languages
     info:
-      - idiom: Español
-        level: Nativo
+      - idiom: Spanish
+        level: Native
 
-      - idiom: Catalán
-        level: Nativo
+      - idiom: Catalan
+        level: Native
 
-      - idiom: Inglés
-        level: Profesional
+      - idiom: English
+        level: Professional
 
   interests:
-    title: Intereses
+    title: Interests
     info:
-      - item: Escalada indoor
+      - item: Indoor climbing
 
-      - item: Submarinismo y snorkel
+      - item: Diving and snorkeling
 
       - item: Gaming
 
-      - item: Cocina
+      - item: Cooking
 
   additional-info:
-    title: Información adicional
+    title: Additional Information
     info:
-      - item: Competencias - Responsabilidad, habilidades interpersonales y oratoria.
-      - item: Licencias - Carnet de conducir B y A2.
-      - item: Vehículo propio - Coche y moto.
+      - item: Competencies - Responsibility, interpersonal skills, and public speaking.
+      - item: Licenses - B and A2 driver's licenses.
+      - item: Own vehicle - Car and motorcycle.
 
 
 career-profile:
-  title: Perfil Profesional
+  title: Professional Profile
   summary: |
-    Desarrollador Full Stack apasionado por la tecnología y con un fuerte interés en las últimas tendencias del desarrollo web.<BR><BR> 
-    Experiencia en la creación de aplicaciones escalables y de alto rendimiento para los sectores médico y de seguros. <BR><BR>
-    Dominio de Java, JS, React y metodologías ágiles. Constantemente actualizando mis conocimientos para ofrecer soluciones innovadoras y de vanguardia.
+    Full Stack Developer passionate about technology with a strong interest in the latest web development trends.<BR><BR>
+    Experience in creating scalable and high-performance applications for the medical and insurance sectors. <BR><BR>
+    Proficient in Java, JS, React, and agile methodologies. Constantly updating my knowledge to offer innovative and cutting-edge solutions.
 
 education:
-  title: Educación
+  title: Education
   info:
-    - degree: Grado en Ingeniería Informática
+    - degree: Bachelor's Degree in Computer Engineering
       university: Universitat Oberta de Catalunya
-      time: 2013 - Presente
+      time: 2013 - Present
       details: |
-        Grado completado al 50%
-    - degree: Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Informáticas
+        50% of the degree completed
+    - degree: Advanced Vocational Training in Software Development
       university: C.E. Roca
       time: 2007 - 2009
-    - degree: Ciclo Formativo de Grado Superior en Administración de Sistemas Informáticos 
+    - degree: Advanced Vocational Training in Systems Administration
       university: C.E. Roca
       time: 2007 - 2009
-    - degree: Ciclo Formativo de Grado Medio en Técnico de Explotación de Sistemas Informáticos
+    - degree: Intermediate Vocational Training in IT Systems Operation
       university: Escola Bemen 3
       time: 2005 - 2007
 
 experiences:
-  title: Experiencia Profesional
+  title: Professional Experience
   info:
-    - role: Ingeniero de Software Fullstack
-      time: 2019 - Presente
-      company: Stacks para Cegedim Santé
+    - role: Fullstack Software Engineer
+      time: 2019 - Present
+      company: Stacks for Cegedim Santé
       details: |
-        Como **Ingeniero Fullstack**, formo parte integral del equipo encargado de la **gestión y mejora continua** de *Mon Logiciel Médical*. Colaboro estrechamente con diseñadores, product owners y otros desarrolladores para entregar soluciones innovadoras que satisfacen las necesidades de los profesionales sanitarios.
+        As a **Fullstack Engineer**, I am an integral part of the team responsible for the **management and continuous improvement** of *Mon Logiciel Médical*. I work closely with designers, product owners, and other developers to deliver innovative solutions that meet the needs of healthcare professionals.
 
-        Actualmente, estoy liderando la **transformación digital** y la **optimización del rendimiento** de la aplicación mediante la implementación de **nuevas tecnologías** y la **refactorización del código existente**. Además, soy responsable de la esolución de incidencia y el mantenimiento de los componentes tanto **frontend** como **backend**.
+        Currently, I am leading the **digital transformation** and **performance optimization** of the application by implementing **new technologies** and **refactoring existing code**. Additionally, I am responsible for incident resolution and maintenance of both **frontend** and **backend** components.
 
-        Mi enfoque se centra en:
+        My focus is on:
 
-        - **Calidad del código:** Garantizar que cada entrega cumpla con los más altos estándares de calidad.
-        - **Satisfacción del usuario final:** Asegurar una experiencia de usuario óptima y sin fricciones.
-        - **Mentoría:** Apoyar a los nuevos integrantes del equipo, promoviendo el conocimiento compartido y las mejores prácticas de desarrollo.
+        - **Code Quality:** Ensuring that each delivery meets the highest quality standards.
+        - **End-User Satisfaction:** Ensuring a smooth and optimal user experience.
+        - **Mentorship:** Supporting new team members, promoting knowledge sharing, and best development practices.
       technologies: React, Java 7 8 17, Hibernate, Springboot, JavaScript, jQuery, JSP, REST, Oracle, IntelliJ, Visual Studio, Jira, Kubernetes, Git, Jenkins
-    - role: Desarrollador Java Fullstack
+    - role: Fullstack Java Developer
       time: 2017 - 2019
-      company: Sopra Steria para el cliente Allianz
+      company: Sopra Steria for Allianz
       details: |
-        - **Desarrollo Ágil:** Participación activa en equipos Scrum para el desarrollo de aplicaciones web.
-        - **Mejora Continua:** Gestión proactiva de incidencias y optimización de aplicaciones existentes.
-        - **Automatización:** Creación de un arquetipo Maven para agilizar el inicio de nuevos proyectos.        
+        - **Agile Development:** Active participation in Scrum teams for web application development.
+        - **Continuous Improvement:** Proactive incident management and optimization of existing applications.
+        - **Automation:** Created a Maven archetype to streamline the start of new projects.
       technologies: Java 7, Hibernate, Spring MVC, JavaScript, jQuery, JSP/JSTL, REST, SQL, Eclipse Juno/Oxygen, Visual Studio, Jira, RTC, Git, Jenkins
-    - role: Desarrollador Java Fullstack
+    - role: Fullstack Java Developer
       time: 2015 - 2017
-      company: Setting Consultoría para el cliente Banc de Sang i Teixits (Sanidad)
+      company: Setting Consultoría for Banc de Sang i Teixits (Healthcare)
       details: |
-        - **Análisis y Diseño:** Toma de requisitos y diseño de soluciones de arquitectura.
-        - **Desarrollo Backend:** Desarrollo de componentes backend utilizando Struts2, Spring, Hibernate y otras tecnologías.
-        - **Desarrollo Frontend:** Diseño y desarrollo de interfaces de usuario utilizando JSF, PrimeFaces y JavaScript.
-        - **Optimización:** Mejora del rendimiento y resolución de incidencias en aplicaciones existentes.
+        - **Analysis and Design:** Requirement gathering and architecture solution design.
+        - **Backend Development:** Developed backend components using Struts2, Spring, Hibernate, and other technologies.
+        - **Frontend Development:** Designed and developed user interfaces using JSF, PrimeFaces, and JavaScript.
+        - **Optimization:** Performance improvement and issue resolution in existing applications.
       technologies: Java 4/7, Struts 1.1, Spring, Hibernate, JPA, JSF, PrimeFaces, JavaScript, PL/SQL, eProgesa, Oracle, Eclipse Luna/Neon
-    - role: Soporte Informático Remoto 
+    - role: Remote IT Support
       time: 2010 - 2015
-      company: Costaisa para el cliente Asepeyo
-    - role: Soporte Informático/Helpdesk 
+      company: Costaisa for Asepeyo
+    - role: IT Support/Helpdesk
       company: Uniland Cementera S.A.
       time: 2008 - 2009
-    - role: Soporte Informático/Helpdesk 
+    - role: IT Support/Helpdesk
       company: Telefónica Soluciones
       time: 2007 - 2008
-    - role: Soporte Informático 
+    - role: IT Support
       company: Sede del Poder Judicial de Barcelona (C.G.P.J.)
       time: 2007
-    - role: Técnico de Mantenimiento y Administración de Redes 
+    - role: Network Maintenance and Administration Technician
       company: Disvirtual S.L.
       time: 2007
-    - role: Técnico en Reparaciones de Periféricos de Taxis
+    - role: Peripherals Repair Technician for Taxis
       company: Taxímetros Barcino S.L.
       time: 2006 - 2008
 
 
 skills:
-  title: Habilidades y Competencias
+  title: Skills and Competencies
 
   toolset:
     - name: Java
@@ -161,4 +158,4 @@ skills:
   
 
 footer: >
-  Desarrollado a partir de la plantilla de <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Developed from a template by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
