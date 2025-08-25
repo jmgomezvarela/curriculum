@@ -10,7 +10,7 @@ sidebar:
 
   # Sidebar links
   email: [ jmgomezvarela@gmail.com ]
-  location: Calafell, Spain
+  location: Barcelona, Spain
   timezone: Europe/Madrid
   linkedin: [ jmgomezvarela ]
   github: [ jmgomezvarela ] 
@@ -48,22 +48,17 @@ sidebar:
       - item: Competencies - Responsibility, interpersonal skills, and public speaking.
       - item: Licenses - B and A2 driver's licenses. 
 
-
 career-profile:
   title: Professional Profile
   summary: |
-    Software Engineer with degree and more than 15 years experience on development industry, 
-    full stack developer passionate about technology with a strong interest in the latest web development trends who loves building products that helps people. <BR><BR>
-    Currently creating scalable and high-performance applications for the medical and insurance sectors.<BR><BR>
-    I like clean code and work in-proving my Java skills but I don't forget to keep learning to remain updated, e.g. Nowdays learning React. 
-    .<BR><BR>
- 
+    **Software Engineer with a degree and over 15 years of experience in the software development industry.**<BR><BR>
+    Specialized as a Full Stack Developer with a strong commitment to leveraging the latest web technologies to deliver innovative, user-centric solutions. 
+    Currently focused on designing and implementing scalable, high-performance applications for the medical and insurance sectors.
+    Dedicated to writing clean, maintainable code and continuously enhancing technical expertise, particularly in Java, while actively expanding knowledge in modern frameworks such as React.<BR><BR>
 
 education:
   title: Education
   info:
-
-
     - degree: Informatics & software Engineer, License IT 2022/QOS682, 
       university: SPANISH MINISTRY of EDUCATION  (www.educacion.es)
       time: 2023
@@ -144,7 +139,7 @@ skills:
       level: 98%
     
     - name: React
-      level: 60%
+      level: 70%
 
     - name: HTML5 & CSS
       level: 95%
